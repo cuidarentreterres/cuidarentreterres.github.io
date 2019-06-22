@@ -2,4 +2,4 @@
 
 https://cuidarentreterres.github.io
 
-http://cuidarentreterres.directa.cat
+https://cuidarentreterres.directa.cat
