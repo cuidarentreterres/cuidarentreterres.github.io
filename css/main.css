@@ -36,7 +36,6 @@ body{
     -o-background-size: cover;
     background-size: cover;
   position: relative;
-  max-width: 100%;
 }
 p{
   font-family: 'aktivgrotesk', sans-serif;
@@ -502,7 +501,7 @@ body.cap1{
   font-family: 'aktivgrotesk', sans-serif;
   color:white;
   margin:0;
-  background: url("../img/cap100.jpg") no-repeat center center fixed;
+  background: url("../img/cap100.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -586,11 +585,11 @@ width: 60px;
 }
 /* backgrounds */
 .cd-section:nth-child(2) {
-  background-image: url("../img/cap101.jpg");
+  background-image: url("../img/cap101.JPG");
 }
 
 .cd-section:nth-child(4) {
-  background-image: url("../img/cap102.jpg");
+  background-image: url("../img/cap102.JPG");
 }
 
 
@@ -669,15 +668,40 @@ div.contenedor_texto{
   background-color: black;
 }
 article.obj{
-  display: grid;
   padding-top: 50px;
   padding-bottom: 100px;;
   margin-top: 50px;
-  grid-auto-columns: minmax(200px, 50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   column-gap: 50px;
   border-top-style: solid;
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.5);
+}
+article.obj p{
+  max-width: 75%;
+}
+article.obj .datos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.datos h3{
+  font-size: 2rem;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.datos h4{
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.datos p{
+  font-size: 0.8rem;
+  opacity: 0.5;
 }
 article.subj{
   display: grid;
