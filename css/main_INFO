@@ -1,0 +1,981 @@
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+/*ie*/
+div.IE{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+
+/*CONTENIDO*/
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+body{
+  font-family: 'aktivgrotesk', sans-serif;
+  letter-spacing: 1px;
+  color:white;
+  margin:0;
+  background: url("../img/1_portada.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  border-style: dashed;
+  position: relative;
+  max-width: 100%;
+}
+p{
+  font-family: 'aktivgrotesk', sans-serif;
+  letter-spacing:1px;
+}
+.content{
+  background-image: linear-gradient(to top, rgba(0,0,0,1)50%, rgba(0,0,0,0.9));
+  opacity: 1;
+  margin:0;
+}
+.content.full{
+}
+.flex{
+  margin: 2% 5% 0 5%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.non-selectable {
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.topfixed{
+background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.9));
+opacity: 0;
+top:0px;
+height: 70px;
+margin:0;
+padding-top: 5px;
+}
+header.redimension h1{
+  font-size: 1.5rem;
+}
+
+
+
+article{
+  margin: 0 5% 0 5%;
+  display:grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  z-index: 0;
+  column-gap: 50px;
+  padding: 100px 0 100px 0;
+
+}
+/*HEADER*/
+header{
+  font-size: 16px;
+  position: fixed;
+  width: 100%;
+  top:3%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+
+}
+header h1{
+flex-grow: 1;
+text-transform: uppercase;
+color: white;
+margin:0;
+font-size: 2rem;
+line-height: 1.8rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+  flex-grow: 2;
+  z-index: 0;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  float: right;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+nav li a{
+font-family: 'aktivgrotesk', sans-serif;
+font-weight: 100;
+color: white;
+padding-right: 10px;
+padding-left: 10px;
+font-size: 1.2rem;
+}
+nav li a:hover{
+  font-weight: 900;
+}
+
+
+/*LAND*/
+div.father{
+  position: relative;
+}
+div.lema{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -3%;
+  position: sticky;
+  top:10%;
+  border-width:10px;
+  z-index: 0;
+  opacity: 0.2;
+}
+svg.web{
+  display: inherit;
+}
+svg.mobil{
+display: none;}
+
+/*probetatik, baina oin ez dabil:
+
+.lema1 svg{
+  width: 100vw;
+  height: 100vh;
+  border-width: 1px;
+}
+*/
+
+img#scrollicon {
+  position: fixed;
+  right: 0;
+  margin-right:5%;
+  margin-bottom: 3%;
+  bottom: 0px;
+  flex-grow: 1;
+  height: 70px;
+  width: auto;
+  opacity: 0;
+}
+div.logos{
+  position: fixed;
+  bottom: 0;
+  margin: 0 5% 3% 5%;
+  left: 0;
+}
+ img.logo{
+  float: right;
+  height: 25px;
+  padding: 5px 0 0 60px;
+}
+img.logo.directa{
+ float: right;
+ height: 35px;
+ padding: 0 0 0 0px;
+}
+
+div.rell_gradient{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.9)66%, rgba(0,0,0,0.9)); /* Standard syntax (must be last) */
+  height: 150vh;
+  z-index: 0;
+}
+div.rell_gradient.cap{
+  background-image: linear-gradient(to bottom, rgba(12,12,12,0), rgba(12,12,12,1)60%);
+  height: auto;/* Standard syntax (must be last) */
+}
+/*LAND*/
+article p{
+  font-size: 1.2rem;
+  margin:0;
+}
+article h2{
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 100;
+  margin: 0;
+}
+/*VIDEO*/
+div.videocontainer{
+  max-width: 100vw;
+
+  height: auto;
+}
+.videocontainer video{
+  width: 100%;
+
+  height: auto;
+  opacity: 1;
+  z-index: 10;
+}
+/*INFOGRAFIA*/
+div.infografia{
+  position: relative;
+  display: grid;
+  margin: 0 0 0 5%;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 50px;
+¡}
+div.infSVG{
+position: sticky;
+top:0;
+}
+.infSVG img{
+  object-fit: cover;
+  max-height: 100vh;
+}
+div.infografia.container.bgFixed{
+  position:fixed;
+  top:0;
+  left: 0;
+
+}
+
+div.relato{
+  position: relative;
+  top: 10px;
+}
+div.punto{
+
+}
+div.hueco{
+  height: 50vh;
+}
+
+/*GALERIA*/
+.capitulos{
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.capitulos h1{
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  text-transform: none;
+
+}
+.capitulos h2{
+  padding-top: 50px;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1rem;
+  opacity:0.5;
+  margin: 0 0 0 0;
+  text-transform: none;
+}
+.capitulos p{
+  padding-top: 10px;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1rem;
+  opacity:1;
+  margin: 0 0 0 0;
+  padding-bottom: 15px;
+  text-transform: lowercase;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+div.imgContainer{
+  position: relative;
+  height: 60vh;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .2s;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+div.imgContainer.cerrado{
+  opacity: 0.15;
+  cursor: inherit;
+}
+
+.img.cap{
+
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  background-position: 60%;
+  transition: all .5s;
+}
+.img.cap.uno{
+  background-image:url("../img/cap100.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.img.cap.dos{
+  background-image:url("../img/cap200.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.img.cap.tres{
+  background-image:url("../img/cap300.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.imgContainer:hover .img.cap{
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.imgContainer.cerrado:hover .img.cap{
+  -ms-transform:opacity(0.1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  opacity: 0.5;
+}
+.img.cap.cerrado{
+  background-image:url("../img/x.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  background-position: 60%;
+  transition: all .2s;
+}
+article.galeria{
+  text-transform: lowercase;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 0;
+}
+
+/*creditos*/
+article.creditos{
+  margin: 0 5% 0 5%;
+  display:grid;
+  grid-template-columns: repeat( auto-fit, minmax(125px, 1fr) );
+  z-index: 0;
+  column-gap: 50px;
+  padding: 100px 0 100px 0;
+}
+.bloc h4{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1rem;
+  opacity:0.5;
+  margin: 0 0 0 0;
+  text-transform: none;
+}
+.bloc p{
+  padding-top: 0px;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1rem;
+  opacity:1;
+  margin: 0 0 0 0;
+  text-transform: none;
+}
+
+/*CAPITULOS*/
+body.cap1{
+  font-family: 'aktivgrotesk', sans-serif;
+  color:white;
+  margin:0;
+  background: url("../img/cap100.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  border-style: dashed;
+  position: relative;
+  max-width: 100%;
+}
+div.container.tit{
+  position: relative;
+  margin: 0 5% 0 5%;
+}
+.back img{
+  width: 50px;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  color: white;
+  transition: all 0.5s;
+}
+.mess_back{
+  position: absolute;
+  top: 4%;
+  left: 5%;
+  transition: all 0.5s;
+  opacity: 0;
+}
+.container.tit img:hover{
+  transform: scale(1.5);
+}
+.back:hover .mess_back{
+  opacity: 1;
+}
+footer{
+  background-color: #0c0c0c;
+
+}
+.back.footer{
+  background-color: #0c0c0c;
+  padding: 100px 0 100px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.back.footer img:hover{
+  transform: translate(-20%, 0);
+}
+
+.back.footer img{
+display: block;
+position: relative;
+margin:auto;
+transition: all 0.5s;
+width: 60px;
+}
+.back.footer p{
+  opacity: 1;
+  position: relative;
+  display: block;
+}
+.container.tit h1{
+  position: absolute;
+  bottom: 5%;
+  font-weight: 100;
+  font-size: 6rem;
+  line-height: 5.5rem;
+  margin:0;
+  opacity: 0.8;
+}
+
+.cd-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cd-section--bg-fixed {
+  min-height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+}
+/* backgrounds */
+.cd-section:nth-child(2) {
+  background-image: url("../img/cap101.jpg");
+}
+
+.cd-section:nth-child(4) {
+  background-image: url("../img/cap102.jpg");
+}
+
+
+
+.cd-section.intro{
+  background-color: none;
+}
+.cd-section.contenido{
+  background-color: #0c0c0c;
+}
+/*fichas*/
+.ficha{
+  width: 100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  transition-timing-function: ease-out;
+  position: absolute;
+  top:
+}
+.ficha.visible{
+  visibility: inherit;
+  opacity: 1;
+
+}
+article.cap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+ div .personaje{
+  grid-column-start: 2;
+}
+div.cures{
+  display: grid;
+  grid-template-columns:repeat( auto-fit, minmax(150px, 1fr));
+  column-gap: 25px;
+}
+article.cap h2{
+  margin-bottom: 10px;
+}
+article.cap p{
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+}
+article.cap h3{
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin:0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+div.mapaMigracio{
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+div.mapaMigracio p{
+  position: absolute;
+  bottom:0px;
+}
+
+
+
+div.contenedor_texto{
+  background-color: black;
+}
+article.obj{
+  display: grid;
+  padding-top: 50px;
+  padding-bottom: 100px;;
+  margin-top: 50px;
+  grid-auto-columns: minmax(200px, 50%);
+  column-gap: 50px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+article.subj{
+  display: grid;
+  padding-top: 0;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  position: relative;
+}
+div.text_subj{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 2rem;
+}
+div.text_subj.salto{
+  margin-top: 100px;
+
+}
+.dreta{
+  grid-column-start: 2;
+}
+.esquerra{
+  grid-column-start: 1;
+
+}
+.text_obj h2{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.text_subj h1{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 900;
+}
+.text_subj h2{
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.text_subj h3{
+  font-family: "Canela", serif;
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  grid-column-start: 2;
+}
+.text_subj h3.ini{
+  margin-top: 0px;
+}
+.text_subj p{
+  font-family: "Canela", serif;
+  font-weight: 100;
+  line-height: 1.6rem;
+  grid-column-start: 2;
+}
+/*multimedia*/
+div.text_multi{
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+  top:50px;
+
+}
+/*irudi aldaketa vewpointegaz*/
+.modo.visible{
+  margin-top:100px;
+  display: inherit;
+  width: 100%;
+  outline: none;
+}
+.text_vid video{
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  vertical-align: super;
+  object-fit: none;
+  outline: none;
+}
+
+video::-webkit-media-controls-panel {
+   background-image: none !important;
+   filter: brightness(0.4);
+}
+.modo{
+ display: none;
+ width: 100%;
+
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+   @media (max-width: 575.98px) {
+      svg.web{
+        display: none;
+      }
+      svg.mobil{
+        display: inherit;
+      }
+      div.logos{
+        visibility: hidden;
+      }
+      img#scrollicon {
+        left:50%;
+        margin-left: -25px;
+      }
+      header h1{
+        font-size: 1.5rem;
+        line-height: 1rem;
+      }
+      nav li a{
+      font-family: 'aktivgrotesk', sans-serif;
+      font-weight: 100;
+      color: white;
+      padding-right: 10px;
+      padding-left: 10px;
+      font-size: 0.8rem;
+      }
+    }
+   @media (max-width: 767.98px) {
+     img#scrollicon {
+       left:50%;
+       margin-left: -25px;
+     }
+     header h1{
+       font-size: 1.5rem;
+       line-height: 1rem;
+     }
+     div.logos{
+       visibility: hidden;
+     }
+   }
+
+   // Medium devices (tablets, less than 992px)
+   @media (max-width: 991.98px) {
+     img#scrollicon {
+       left:50%;
+       margin-left: -25px;
+     }
+     header h1{
+       font-size: 1rem;
+       line-height: 1rem;
+     }
+   }
+
+ // Large devices (desktops, less than 1200px)
+ @media (max-width: 1199.98px) { ... }
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
