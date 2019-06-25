@@ -650,7 +650,6 @@ article.cap h3{
 }
 div.mapaMigracio{
   border-top-style: solid;
-  border-bottom-style: solid;
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.5);
   padding-top: 10px;
@@ -689,6 +688,7 @@ article.obj .datos{
 
 .datos h3{
   font-size: 2rem;
+  line-height: 2rem;
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 0;
@@ -697,10 +697,12 @@ article.obj .datos{
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 1rem;
+  line-height: 1rem;
   font-weight: 100;
 }
 .datos p{
   font-size: 0.8rem;
+  line-height: 0.8rem;
   opacity: 0.5;
 }
 article.subj{
@@ -718,7 +720,8 @@ div.text_subj{
   margin-top: 2rem;
 }
 div.text_subj.salto{
-  margin-top: 100px;
+  padding-top: 100px;
+  margin-top: 0px;
 
 }
 .dreta{
@@ -1055,6 +1058,21 @@ textarea {
      div.esquema{
        display: none;
      }
+     /*capitulos datos*/
+     article.obj{
+       display: block;
+     }
+     article.obj .datos{
+       margin-top: 100px;
+     }
+     article.obj p{
+       max-width: 45%;
+     }
+     .text_subj h2{
+       font-size: 0.8rem;
+       line-height: 1rem;
+     }
+
 
 
    }
@@ -1113,6 +1131,24 @@ textarea {
    }
    article.intro h2{
      width: 50%;
+   }
+   /*capitulos multi*/
+   div.text_subj{
+     display: block;
+   }
+   .text_subj h2{
+     margin: 1rem 0 1rem 0;
+   }
+   article.subj{
+     display: block;
+     margin: 0 10% 0 10%;
+   }
+   /* multi texto */
+   div.text_multi{
+     position: inherit;
+   }
+   div.videocontainer{
+     padding-top: 50px;
    }
 
 
@@ -1207,6 +1243,44 @@ visibility: hidden  }
 
     .imgContainer.cerrado:hover .img.cap{
       transform: none;
+    }
+    /*cap intro*/
+    .container.tit h1{
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+    article.obj p{
+      max-width: 100%;
+    }
+    article.obj .datos{
+      display: block;
+    }
+    /*ficha*/
+    article.cap{
+      display: block;
+    }
+    article.cap p{
+      margin-bottom: 20px;
+    }
+    div.text_multi{
+      position: relative;
+      margin-bottom: 50px;
+      height: 200px;
+    }
+    div.videocontainer{
+      padding-top: 0px;
+      margin-top:0px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
+    .modo.visible{
+
+    }
+    .modo{
+      display: block;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      min-height: 200px;
     }
   }
 
