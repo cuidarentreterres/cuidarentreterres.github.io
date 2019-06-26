@@ -273,7 +273,7 @@ article h2{
 /*VIDEO*/
 div.videocontainer{
   padding-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 0;
   max-width: 100vw;
   height: auto;
 }
@@ -758,6 +758,14 @@ div.text_subj.salto{
   line-height: 1.6rem;
   grid-column-start: 2;
 }
+.firma{
+  margin-top: -6rem;
+  grid-column-start: 2;
+}
+.firma p{
+  font-family: "aktivgrotesk", sans-serif;
+  font-size: 1rem;
+}
 /*multimedia*/
 div.text_multi{
   position: -webkit-sticky; /* Required for Safari */
@@ -767,7 +775,6 @@ div.text_multi{
 }
 /*irudi aldaketa vewpointegaz*/
 .modo.visible{
-  margin-top:100px;
   display: inherit;
   width: 100%;
   outline: none;
@@ -1083,6 +1090,7 @@ textarea {
    article.subj{
      display: block;
      margin: 0 10% 0 10%;
+     padding-bottom: 50px;
    }
    article.cap{
      display: block;
@@ -1090,6 +1098,9 @@ textarea {
    /* multi texto */
    div.text_multi{
      position: inherit;
+     padding-bottom: 100px;
+     height: 100%;
+
    }
    div.videocontainer{
      padding-top: 50px;
@@ -1161,6 +1172,13 @@ textarea {
         font-size: 0.8rem;
         line-height: 1rem;
       }
+      .firma{
+        margin-top: 3rem;
+      }
+      .back.footer{
+        padding: 0px 0 100px 0;
+      }
+
     }
 
       @media (max-width: 800px) {
@@ -1337,9 +1355,10 @@ visibility: hidden  }
       margin-bottom: 20px;
     }
     div.text_multi{
+      display: block;
       position: relative;
-      margin-bottom: 50px;
-      height: 200px;
+      padding-bottom: 50px;
+      height: auto;
     }
     div.videocontainer{
       padding-top: 0px;
@@ -1353,9 +1372,13 @@ visibility: hidden  }
     }
     .modo{
       display: block;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      min-height: 200px;
+    }
+    .text_subj h3{
+      font-size: 1.5rem;
+      line-height: 1.85rem;
+    }
+    .firma{
+      margin-top: 6rem;
     }
   }
 
