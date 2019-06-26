@@ -11,20 +11,10 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-/*ie*/
-
-
 /*CONTENIDO*/
 div.ie{
-  background-color: yellow;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  z-index: 10;
+  display: none;
 }
-
 html {
   color: #222;
   font-size: 1em;
@@ -55,7 +45,6 @@ div.preINDEX{
   display: block;
   margin:0 0 0 0 ;
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
 }
 .preINDEX h1{
   font-size: 4rem;
@@ -1574,5 +1563,24 @@ visibility: hidden  }
   h2,
   h3 {
     page-break-after: avoid;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body{
+    background: url("../img/1_portada.jpg")no-repeat center center fixed;
+    background-size: cover;
+  }
+  div.ie{
+    display: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .normal{
+    display: none;
   }
 }
