@@ -1585,7 +1585,7 @@ visibility: hidden  }
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   body{
-    background: url("../img/1_portada.jpg")no-repeat center center fixed;
+    background-image: url("../img/1_portada.jpg")no-repeat center center fixed;
     background-size: cover;
   }
   div.ie{
