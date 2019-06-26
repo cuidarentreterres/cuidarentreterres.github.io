@@ -777,7 +777,7 @@ div.text_multi{
 }
 /*irudi aldaketa vewpointegaz*/
 .modo.visible{
-  display: inherit;
+  display: block;
   width: 100%;
   outline: none;
 }
