@@ -32,7 +32,7 @@ body{
     background-size: cover;
   position: relative;
   height: 100%;
-;
+
 }
 p{
   font-family: 'aktivgrotesk', sans-serif;
@@ -434,6 +434,13 @@ div.imgContainer.cerrado{
 }
 .img.cap.tres{
   background-image:url("../img/cap300.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.img.cap.cuatro{
+  background-image:url("../img/cap400.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
