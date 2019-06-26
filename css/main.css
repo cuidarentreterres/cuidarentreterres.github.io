@@ -539,7 +539,7 @@ body.cap1{
   font-family: 'aktivgrotesk', sans-serif;
   color:white;
   margin:0;
-  background: url("../img/cap100.JPG") no-repeat center center fixed;
+  background-image: url("../img/cap100.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1318,7 +1318,7 @@ textarea {
 }
  @media (max-width: 575px) {
    body{
-     background: url("../img/1_portada_m.jpg")no-repeat center center fixed;
+     background-image: url("../img/1_portada_m.jpg")no-repeat center center fixed;
        -webkit-background-size: cover;
        -moz-background-size: cover;
        -o-background-size: cover;
