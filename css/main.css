@@ -423,7 +423,7 @@ div.imgContainer.cerrado{
   transition: all .5s;
 }
 .img.cap.uno{
-  background-image:url("../img/cap100.jpg");
+  background-image:url("../img/cap100.JPG");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
