@@ -12,14 +12,19 @@
    ========================================================================== */
 
 /*ie*/
-div.IE{
-  display: block;
-  background-color: rgba(0, 0, 0, 0.1);
-  width: 100vw;
-  height: 100vh;
-}
+
 
 /*CONTENIDO*/
+div.ie{
+  background-color: yellow;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
 html {
   color: #222;
   font-size: 1em;
