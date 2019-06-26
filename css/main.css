@@ -31,6 +31,8 @@ body{
     -o-background-size: cover;
     background-size: cover;
   position: relative;
+  background-attachment: fixed;
+  max-width: 100%;
 }
 p{
   font-family: 'aktivgrotesk', sans-serif;
