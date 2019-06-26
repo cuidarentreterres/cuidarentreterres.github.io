@@ -98,7 +98,7 @@ div.preINDEX{
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-start
 
 }
 .non-selectable {
@@ -177,6 +177,9 @@ padding-right: 10px;
 padding-left: 10px;
 font-size: 1.2rem;
 }
+a.actual{
+  font-weight: 900;
+}
 nav li a:hover{
   font-weight: 900;
 }
@@ -191,6 +194,7 @@ div.lema{
   margin-right: 5%;
   margin-top: -3%;
   position: sticky;
+  position: -webkit-sticky; /* Required for Safari */
   top:10%;
   border-width:10px;
   z-index: 0;
@@ -198,6 +202,9 @@ div.lema{
 }
 svg.web{
   display: inherit;
+}
+svg.ipad{
+  display:none;
 }
 svg.mobil{
 display: none;}
@@ -273,7 +280,7 @@ article h2{
 /*VIDEO*/
 div.videocontainer{
   padding-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 0;
   max-width: 100vw;
   height: auto;
 }
@@ -287,9 +294,7 @@ div.videocontainer{
 /*INFOGRAFIA*/
 article.infografia{
   margin: 0;
-  border-top-style: solid;
-  border-width: 1px;
-  border-color: rgba(255, 255, 255, 0.5);
+
   background-color: rgba(0, 0, 0, 0.9);
 
 }
@@ -309,13 +314,14 @@ div.left{
   width: 50%;
   height: 80vh;
   position: sticky;
+  position: -webkit-sticky; /* Required for Safari */
   top:100px;
   right: 0;
   float: right;
   background-image: url("../img/INFOGRAFIA_fondo2.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0 40%;
+  background-position: 0 0%;
 
 }
 .left img{
@@ -335,6 +341,9 @@ div.texto{
 .texto p{
   margin-bottom: 0;
 }
+.texto p b{
+  letter-spacing: 0.05rem;
+  }
 .texto h3{
   margin: 0;
 }
@@ -362,26 +371,34 @@ div.esquema{
 
 }
 .capitulos h2{
-  padding-top: 50px;
+  padding-top: 10px;
+
+  padding-bottom: 15px;
   font-weight: 100;
   font-size: 1rem;
   line-height: 1rem;
   opacity:0.5;
   margin: 0 0 0 0;
   text-transform: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+h2.sinSup{
+  padding-top: 90px;
 }
 .capitulos p{
-  padding-top: 10px;
   font-weight: 100;
   font-size: 1rem;
   line-height: 1rem;
   opacity:1;
   margin: 0 0 0 0;
-  padding-bottom: 15px;
+  padding-top: 50px;
+
+
+
   text-transform: lowercase;
-  border-bottom-style: solid;
-  border-width: 1px;
-  border-color: rgba(255, 255, 255, 0.5);
+
 }
 div.imgContainer{
   position: relative;
@@ -469,6 +486,8 @@ article.creditos{
   column-gap: 50px;
   padding: 50px 0 50px 0;
   border-top-style: solid;
+  border-bottom-style: solid;
+
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.5);
 }
@@ -494,8 +513,24 @@ article.creditos{
 .creditos img{
   max-width: 125px;
   max-height: 75px;
-}
 
+}
+div.cc{
+  margin: 0 5% 0 5%;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+  display: block;
+}
+div.cc img {
+  margin: 0 ;
+  width: 150px;
+ }
+div.cc p{
+  font-size: 0.8rem;
+  display: inline;
+  float: right;
+}
 /*CAPITULOS*/
 body.cap1{
   font-family: 'aktivgrotesk', sans-serif;
@@ -760,6 +795,14 @@ div.text_subj.salto{
   line-height: 1.6rem;
   grid-column-start: 2;
 }
+.firma{
+  margin-top: -6rem;
+  grid-column-start: 2;
+}
+.firma p{
+  font-family: "aktivgrotesk", sans-serif;
+  font-size: 1rem;
+}
 /*multimedia*/
 div.text_multi{
   position: -webkit-sticky; /* Required for Safari */
@@ -769,8 +812,7 @@ div.text_multi{
 }
 /*irudi aldaketa vewpointegaz*/
 .modo.visible{
-  margin-top:100px;
-  display: inherit;
+  display: block;
   width: 100%;
   outline: none;
 }
@@ -1015,63 +1057,6 @@ textarea {
        display: grid;
        grid-template-columns: 1fr 1fr;
      }
-     /*infografia*/
-     div.left{
-       width: 100%;
-       height: 50vh;
-       position: sticky;
-       top:0px;
-       right: 0;
-       float: right;
-       background-image: url("../img/INFOGRAFIA_fondo2.svg");
-       background-repeat: no-repeat;
-       background-size: 100%;
-       background-position: 0 20%;
-       background-color: rgb(0, 0, 0);
-       border-bottom-style: solid;
-       border-width: 1px;
-       border-color: rgba(255, 255, 255, 0.5);
-       padding-bottom: 100px;
-       margin-bottom: 100px;
-     }
-     div.texto{
-       display: block;
-       width: 100%;
-       float: left;
-     }
-     div.texto h2{
-       width: 50%;
-     }
-     div.infoText{
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       column-gap: 50px;
-     }
-     div.left{
-       height: 40vh;
-       background-position: 50% 20%;
-       padding-top: 50px;
-        }
-     div.texto p{
-       padding-bottom: 200px;
-     }
-     div.esquema{
-       display: none;
-     }
-     /*capitulos datos*/
-     article.obj{
-       display: block;
-     }
-     article.obj .datos{
-       margin-top: 100px;
-     }
-     article.obj p{
-       max-width: 45%;
-     }
-     .text_subj h2{
-       font-size: 0.8rem;
-       line-height: 1rem;
-     }
 
 
 
@@ -1079,6 +1064,23 @@ textarea {
 
 
  @media (max-width: 1000px) {
+   header h1{
+     font-size: 1.5rem;
+   }
+   svg.web{
+     display: none;
+   }
+   svg.ipad{
+     display: inherit;
+   }
+   div.rell_gradient{
+     background-image: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.9)80%, rgba(0,0,0,0.9));
+     height: 100vh;
+     z-index: 0;
+   }
+   .content{
+    margin-top: 0px;
+   }
    .preINDEX h1{
      font-size: 3rem;
      text-align: center;
@@ -1115,6 +1117,7 @@ textarea {
    div.texto h2{
      width: 50%;
    }
+
    div.infoText{
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -1128,6 +1131,7 @@ textarea {
 
    article.intro{
      display: block;
+     padding-top: 0;
    }
    article.intro h2{
      width: 50%;
@@ -1142,18 +1146,178 @@ textarea {
    article.subj{
      display: block;
      margin: 0 10% 0 10%;
+     padding-bottom: 50px;
+   }
+   article.cap{
+     display: block;
    }
    /* multi texto */
    div.text_multi{
      position: inherit;
+     padding-bottom: 100px;
+     height: 100%;
+
    }
    div.videocontainer{
      padding-top: 50px;
    }
+   .modo{
+     display: inherit;
+   }
 
+    /*infografia*/
+    article.galeria{
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+      div.left{
+        width: 100%;
+        height: 50vh;
+        position: sticky;
+        position: -webkit-sticky; /* Required for Safari */
+        top:0px;
+        right: 0;
+        float: right;
+        background-image: url("../img/INFOGRAFIA_fondo2.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0 20%;
+        background-color: rgb(0, 0, 0);
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: rgba(255, 255, 255, 0.5);
+        padding-bottom: 100px;
+        margin-bottom: 100px;
+      }
+      div.texto{
+        display: block;
+        width: 100%;
+        float: left;
+      }
+      div.texto h2{
+        width: 50%;
+      }
 
- }
+      div.infoText{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+      }
+      div.left{
+        height: 45vh;
+        background-position: 50% 10%;
+        padding-top: 50px;
+         }
+      .left img{
+        margin-top: -10%
+      }
+      div.texto p{
+        padding-bottom: 200px;
+      }
+      #esquema0{
+        margin-top: -10%;
+      }
+      div.esquema{
+        display: none;
+      }
+      /*capitulos datos*/
+      article.obj{
+        display: block;
+      }
+      article.obj .datos{
+        margin-top: 100px;
+      }
+      article.obj p{
+        max-width: 45%;
+      }
+      .text_subj h2{
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
+      .firma{
+        margin-top: 3rem;
+      }
+      .back.footer{
+        padding: 0px 0 100px 0;
+      }
+      .creditos img {
+    max-width: 100px;
+    max-height: 50px;
+    margin: auto;
+}
+
+    }
+
+      @media (max-width: 800px) {
+        div.left{
+          height: 35vh;
+        }
+}
+
+ @media (max-width: 740px) {
+   .container.tit h1{
+     font-size: 2rem;
+     line-height: 2rem;
+   }
+   article.cap{
+     padding: 50px 0 50px 0;
+   }
+   .mapaMigracio{
+     visibility: hidden;
+   }
+   .back.footer{
+     padding:0 0 100px 0;
+   }
+   div.esquema{
+     display: inherit;
+     visibility: visible;
+     grid-column-start: 1;
+     grid-row-end: 2;
+     height: auto;
+   }
+   div.esquema img{
+     width: 100%;
+     height: auto;
+     z-index: 5;
+     margin: 0px 0 50px 0;
+   }
+   .left{
+     display: none;
+   }
+   /*infografia*/
+   div.left{
+     width: 100%;
+     height: 20vh;
+     position: sticky;
+     position: -webkit-sticky; /* Required for Safari */
+     top:0px;
+     right: 0;
+     float: right;
+     background-size: 100%;
+     background-position: 0 -20%;
+   }
+   div.infoText{
+     display: block;
+   }
+   div.texto{
+     display: block;
+     width: 100%;
+     float: left;
+   }
+   div.texto p{
+     padding-bottom: 0;
+     font-size: 0.8rem;
+     line-height: 1rem;
+   }
+   div.texto h2{
+     width: 100%;
+   }
+}
  @media (max-width: 575px) {
+
+   article.intro h2{
+     width: 100%;
+   }
    .preINDEX h1{
      font-size:1.5rem
      ;
@@ -1180,6 +1344,9 @@ visibility: hidden  }
     svg.web{
       display: none;
     }
+    svg.ipad{
+      display: none;
+    }
     svg.mobil{
       display: inherit;
     }
@@ -1190,9 +1357,28 @@ visibility: hidden  }
       left:50%;
       margin-left: -25px;
     }
+    header{
+      top:0;
+    }
+    .topfixed h1{
+      display: none;
+    }
+    .flex{
+      margin-top:0px;
+    }
+    nav{
+      margin-top: 2%;
+    }
     header h1{
+      padding-top: 30px;
       font-size: 1.5rem;
-      line-height: 1rem;
+      line-height: 1.5rem;
+    }
+    nav ul{
+      float: right;
+      padding-left: 0;
+      justify-content: space-around;
+
     }
     nav li a{
     font-family: 'aktivgrotesk', sans-serif;
@@ -1211,6 +1397,7 @@ visibility: hidden  }
       width: 100%;
       height: 20vh;
       position: sticky;
+      position: -webkit-sticky; /* Required for Safari */
       top:0px;
       right: 0;
       float: right;
@@ -1237,6 +1424,9 @@ visibility: hidden  }
     article.galeria{
       display:block;
     }
+    div.imgContainer{
+      height: 40vh;
+    }
     .imgContainer:hover .img.cap{
       transform: none;
     }
@@ -1246,8 +1436,8 @@ visibility: hidden  }
     }
     /*cap intro*/
     .container.tit h1{
-      font-size: 4rem;
-      line-height: 4rem;
+      font-size: 3.5rem;
+      line-height: 3.5rem;
     }
     article.obj p{
       max-width: 100%;
@@ -1263,9 +1453,10 @@ visibility: hidden  }
       margin-bottom: 20px;
     }
     div.text_multi{
+      display: block;
       position: relative;
-      margin-bottom: 50px;
-      height: 200px;
+      padding-bottom: 50px;
+      height: auto;
     }
     div.videocontainer{
       padding-top: 0px;
@@ -1273,14 +1464,35 @@ visibility: hidden  }
       padding-bottom: 0px;
       margin-bottom: 0px;
     }
+
     .modo.visible{
 
     }
     .modo{
       display: block;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      min-height: 200px;
+    }
+    .text_subj h3{
+      font-size: 1.5rem;
+      line-height: 1.85rem;
+    }
+    .firma{
+      margin-top: 6rem;
+    }
+    .bloc h4{
+    font-size: 0.8rem;
+    }
+    .bloc p{
+      font-size: 0.8rem;
+      line-height: 0.8rem;
+    }
+    div.cc img {
+      margin-left: 25%;
+      margin-right: 25%;
+     }
+    div.cc p{
+      font-size: 0.8rem;
+      display: inline;
+      float: right;
     }
   }
 

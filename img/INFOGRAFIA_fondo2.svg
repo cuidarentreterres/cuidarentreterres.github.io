@@ -3,7 +3,7 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1280 1338" style="enable-background:new 0 0 1280 1338;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:6.000000e-02;clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);enable-background:new    ;}
+	.st0{opacity:5.000000e-02;clip-path:url(#SVGID_2_);fill:#FFFFFF;}
 </style>
 <g id="Capa_1_1_">
 </g>
@@ -15,12 +15,6 @@
 		<clipPath id="SVGID_2_">
 			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 		</clipPath>
-		
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-941" y1="838.1" x2="3042.7012" y2="838.1" gradientTransform="matrix(1 0 0 -1 0 1338)">
-			<stop  offset="0.2264" style="stop-color:#FFFFFF;stop-opacity:0"/>
-			<stop  offset="0.2987" style="stop-color:#FFFFFF"/>
-			<stop  offset="1" style="stop-color:#FFFFFF"/>
-		</linearGradient>
 		<path class="st0" d="M576,895.7l-0.2,0.3l0.3,0.4l0.2,0.4l0.4,0.1l0.4-0.6v-0.8h-0.8L576,895.7z M98.4,219.1l0.2,0.3l0.3,0.2
 			l0.3,0.1v-0.3l-0.3-0.6v-0.6l0.3-0.6l-0.1-0.4l-0.4-0.1l-0.4,0.1l-0.6,0.6l0.4,0.6L98.4,219.1z M111.7,226.4l0.3,0.3l2.1,0.2
 			l1.2,0.3l1.2,0.6l1.1,0.4l0.9,0.2l0.7,0.3l0.5,0.4l1.3,0.5l0.2,0.3l0.2,0.1l0.3-0.1l2.2-1.7l0.7-0.1v0.2l-1.1,1l-0.4,0.1h-0.2
