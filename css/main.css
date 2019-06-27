@@ -332,8 +332,12 @@ article h2{
   margin: 0;
 }
 /*VIDEO*/
-#videocontainer img{
-width: 100%;
+.container{
+  width: 100%;
+}
+#videocontainer{
+background-image: url("../img/intro_lasierra.jpg");
+background-position: 20% 80%;
 }
 .introFoto{
 object-fit: cover;
@@ -1149,6 +1153,9 @@ textarea {
        font-size: 1rem;
        line-height: 1.2rem;
      }
+     #videocontainer{
+     background-position: 100% 80%;
+     }
     }
    @media (max-width: 1250px) {
      article.galeria{
@@ -1198,6 +1205,9 @@ textarea {
    }
    .content{
     margin-top: 0px;
+   }
+   #videocontainer{
+   background-position: 80% 80%;
    }
    .preINDEX h1{
      font-size: 3rem;
@@ -1463,6 +1473,9 @@ textarea {
 
    article.intro h2{
      width: 100%;
+   }
+   #videocontainer{
+   background-position: 65% 90%;
    }
    .preINDEX h1{
      font-size:1.5rem
