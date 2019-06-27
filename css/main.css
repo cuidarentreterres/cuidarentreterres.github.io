@@ -420,7 +420,7 @@ div.imgContainer{
   margin-bottom: 100px;
 }
 div.imgContainer.cerrado{
-  opacity: 0.15;
+  opacity: 0.3;
   cursor: inherit;
 }
 
@@ -560,6 +560,21 @@ body.cap1{
 
   position: relative;
   max-width: 100%;
+}
+body.cap1:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("../img/cap100.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 div.container.tit{
   position: relative;
@@ -1331,7 +1346,7 @@ textarea {
    }
 }
  @media (max-width: 575px) {
-  
+
 
    article.intro h2{
      width: 100%;
