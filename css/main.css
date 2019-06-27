@@ -464,7 +464,7 @@ div.imgContainer{
   margin-bottom: 100px;
 }
 div.imgContainer.cerrado{
-  opacity: 0.3;
+  opacity: 0.2;
   cursor: inherit;
 }
 
