@@ -467,6 +467,9 @@ div.imgContainer.cerrado{
   opacity: 0.2;
   cursor: inherit;
 }
+#detector{
+  display: block;
+}
 
 .img.cap{
 
