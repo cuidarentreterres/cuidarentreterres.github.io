@@ -550,7 +550,6 @@ article.creditos{
   column-gap: 50px;
   padding: 50px 0 50px 0;
   border-top-style: solid;
-  border-bottom-style: solid;
 
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.5);
@@ -582,6 +581,16 @@ article.creditos{
   max-height: 75px;
 
 }
+p.ue{
+  display: block;
+  padding-top: -15px;
+  padding-bottom: 15px;
+ margin: 0px 5% 25px 5%;
+ border-bottom-style: solid;
+ border-width: 1px;
+ border-color: rgba(255, 255, 255, 0.5);
+font-size: 0.8rem;
+line-height: 1rem;}
 div.cc{
   margin: 0 5% 0 5%;
   margin-top: 50px;
