@@ -653,6 +653,7 @@ width: 60px;
 /* backgrounds */
 .cd-section:nth-child(2) {
   background-image: url("../img/cap101.jpg");
+  background-position: 30% 0;
 }
 
 .cd-section:nth-child(4) {
