@@ -332,6 +332,12 @@ article h2{
   margin: 0;
 }
 /*VIDEO*/
+#videocontainer img{
+width: 100%;
+}
+.introFoto{
+object-fit: cover;
+}
 div.videocontainer{
   padding-top: 100px;
   margin-bottom: 0;
@@ -621,7 +627,7 @@ body.cap1{
   max-width: 100%;
 }
 body.cap1:before {
-  content: "#";
+  content: "";
   display: block;
   position: fixed;
   left: 0;
