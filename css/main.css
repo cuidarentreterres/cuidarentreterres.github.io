@@ -48,6 +48,39 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
 }
+.pases{
+
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.docu{
+  margin: 0 5% 0 5%;
+  display: block;
+}
+.docu h1{
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 5%;
+}
+.docu p{
+  margin-top: 0;
+}
+.fechas{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
+  column-gap: 50px;
+  margin:0 5% 0 5%;
+  padding-top: 150px;
+}
+.fechas h2{
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 2.75rem;
+  margin-bottom: 0;
+}
+.fechas p{
+  font-size: 1rem;
+}
 p{
   font-family: 'aktivgrotesk', sans-serif;
   letter-spacing:1px;
@@ -248,13 +281,24 @@ div.logos{
  img.logo{
   float: right;
   height: 25px;
-  padding: 5px 0 0 60px;
+  padding: 20px 50px 0 0px;
 }
 img.logo.directa{
  float: right;
  height: 35px;
- padding: 0 0 0 0px;
+ padding: 10px 50px 0 0px;
 }
+img.logo.salt{
+ float: right;
+ height: 70px;
+ padding: 0 50px 0 0px;
+}
+img.logo.pik{
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
 
 div.rell_gradient{
   background-image: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.9)66%, rgba(0,0,0,0.9)); /* Standard syntax (must be last) */
@@ -507,6 +551,9 @@ article.creditos{
 
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.5);
+}
+#enteros{
+  margin-top: 200px;
 }
 .bloc h4{
   padding-top: 10px;
@@ -1097,6 +1144,26 @@ textarea {
 
 
  @media (max-width: 1000px) {
+   img.logo{
+    float: right;
+    height: 15px;
+    padding: 15px 30px 0 0px;
+  }
+  img.logo.directa{
+   float: right;
+   height: 20px;
+   padding: 10px 30px 0 0px;
+  }
+  img.logo.salt{
+   float: right;
+   height: 40px;
+   padding: 0 30px 0 0px;
+  }
+  img.logo.pik{
+    height: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
    header h1{
      font-size: 1.5rem;
    }
@@ -1285,6 +1352,12 @@ textarea {
         div.left{
           height: 35vh;
         }
+        .fechas{
+          display: block;
+
+          margin:0 5% 0 5%;
+          padding-top: 150px;
+        }
 }
 
  @media (max-width: 740px) {
@@ -1347,6 +1420,27 @@ textarea {
    }
 }
  @media (max-width: 575px) {
+   .docu h1{
+     font-size: 1rem;
+     text-transform: uppercase;
+     margin-bottom: 0;
+     margin-top: 0;
+     padding-top: 5%;
+   }
+   .docu p{
+     font-size: 0.8rem;
+     margin-top: 0;
+   }
+   .fechas h2{
+     font-size: 2rem;
+     font-weight: 100;
+     line-height: 2rem;
+     margin-bottom: 0;
+   }
+   .fechas p{
+     font-size: 0.8rem;
+     line-height: 1rem;
+   }
 
 
    article.intro h2{
