@@ -502,6 +502,7 @@ div.imgContainer.cerrado{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 80%;
 }
 .img.cap.tres{
   background-image:url("../img/cap300.jpg");
@@ -516,6 +517,8 @@ div.imgContainer.cerrado{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 55%;
+
 }
 
 .imgContainer:hover .img.cap{
