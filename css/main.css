@@ -1610,6 +1610,7 @@ visibility: hidden  }
     }
     div.texto h2{
       width: 100%;
+      margin-bottom: 50px;
     }
     /*galeria*/
     article.galeria{
