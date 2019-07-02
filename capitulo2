@@ -1,0 +1,555 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="cap2">
+  <section class="cd-section2 intro">
+    <div class="rell_gradient cap ">
+      <div class="container tit">
+        <div class="back">
+          <a href="index.html#capitulos">
+            <img src="img/close.svg" alt="boton para cerrar el capítulos">
+        <!--
+        <div class="mess_back">
+
+        <p>Tornar <br> al inici</p>
+      </div>*/
+            -->
+          </a>
+        </div>
+        <h1>Cuidar <br> una altra filla <br> alla ciutat</h1>
+      </div>
+      <img class="desap"id="scrollicon" width="70px" src="img/continue.svg" alt="icono para hacer scroll" />
+      <article class="obj">
+        <p>
+
+        </p>
+        <div class="datos">
+          <div class="objDATOS">
+            <h3> d’un 51% a un 20%</h3>
+            <h4>ha disminuït la població rural d’Amèrica Llatina en 60 anys</h4>
+
+            <h3>un 19,5% de la població</h3>
+            <h4>resisteix a Colòmbia al camp segons dades del Banc Mundial. Fa 60 anys n’era un 55%
+            </h4>
+
+            <h3>90% de la seva renda </h3>
+            <h4>és el que les dones poden arribar a gastar en la família, mentre els homes en gasten fins a un 40% </h4>
+            <p>FONT <br> Instituto Internacional d’Investigació Pecuària
+            </p>
+
+          </div>
+          <div class="objDATOS2">
+
+            <h3> 6.400 pesos = 1,80 € </h3>
+            <h4>Preu que paguen per un kg de cafè al camperolat colombià avui.
+            </h4>
+
+            <h3>19 €</h3>
+            <h4> val un kg de cafè colombià a Barcelona
+            </h4>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="cd-section2 cd-section--bg-fixed">
+    <div id="detector1">
+    </div>
+    <div class="container">
+      <div class="ficha"id="ficha1">
+        <article class="cap ">
+          <div class="personaje">
+            <h2>LUCELLY <br>CANCHALA <br>CRUZ </h2>
+            <div class="datos">
+            <h3>Origen:</h3>
+            <p>La Sierra (Colòmbia)</p>
+            <h3>Migració a:</h3>
+            <p>Cali (Colòmbia)</p>
+            </div>
+            <div class="mapaMigracio">
+            <p>142 km</p>
+            <img src="img/migracio_2_1.svg" alt="Trayectoria desde La Sierra a El Cali">
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cd-section contenido">
+    <article class="subj">
+      <div class="text_subj esquerra salto" id="cap2.1">
+        <h1>MARÍA<br>OSORIO</h1>
+        <div class="text ">
+          <p>Lucelly Canchala s’identifica com a camperola tot i que fa molts anys que viu a la ciutat de Cali. “La meva infància va ser molt bonica perquè vivia al camp, amb els meus pares i els meus germans, quatre dones i dos homes”. Totes set van créixer a Los Robles, una vereda –un barri rural– del municipi de La Sierra de 10.000 habitants situat al sud del departament del Cauca, de les regions de Colòmbia que manté més població rural.</p>
+          <h3> De les set germanes, només una segueix vivint al camp amb els seus pares; la resta han migrat a contextos urbans.
+          </h3>
+        <p>La primera vegada que Lucelly va haver de marxar de Los Robles, igual que totes les seves germanes, va ser per poder estudiar la secundària, doncs l’escola de la seva vereda només ensenya fins la primària. Quan estava a punt d’acabar el batxillerat, “me’n vaig anar a Popayán –capital caucana-, allà vivia amb unes familiars i vaig començar a treballar cuidant de nenes”. Més endavant se’n va anar a Cali -la tercera ciutat més gran de Colòmbia amb dos milions i mig d’habitants-, perquè la seva germana, Consuelo Canchala, qui ja havia migrat allà, sabia d’una oportunitat de feina amb una dona de classe alta, la doctora Maria Isabel Pava.</p><h3> “Ella necessitava algú que li cuidés la nena. Jo no tenia feina i tenia fills, necessitava treballar, així que vaig parlar amb ella, em va dir què havia de fer, i ja vaig venir i aquí estic: sóc la <i>niñera</i> de la Salomé.”</h3>
+          </div>
+        </div>
+          <div class="text_multi">
+            <div class="videocontainer modo visible"id="videocontainer1">
+            </div>
+          </div>
+          <div class="text_subj esquerra " id="cap2.2">
+            <h2></h2>
+            <div class="text">
+          <p>Lucelly treballa des de que la Salomé es lleva fins que s’adorm. Ho fa de dilluns a diumenge durant dues setmanes seguides. “Estic interna, surto cada quinze dies i el temps que descanso vaig a casa la meva germana a Cali, comparteixo amb la meva filla i quan puc viatjo a La Sierra a veure la meva família”. Lucelly és mare cap de família; el seu fill petit, Julián David viu a La Sierra des de que va néixer i també és on vivia la seva filla Mishell fins fa poc, quan va anar-se’n a viure a Cali amb la seva tieta Consuelo per continuar estudiant.
+            <br><br>
+
+          Els pares de Lucelly, Cecilia Cruz i Marco Alirio Canchala, viuen i treballen a Los Robles. La seva economia es manté en bona part gràcies a la sobirania alimentària: cultiven molts dels béns que consumeixen com blat de moro, mongetes, plàtan o yuca. Els recursos econòmics que fan servir per comprar la resta del que necessiten provenen principalment del cultiu de cafè. Avui, per una arrova de cafè –dotze quilograms i mig– els hi paguen 80.000 pesos, 23 euros aproximadament. És a dir 1,80 euros el quilogram.
+          </p>
+        </div>
+      </div>
+      <div class="text_multi">
+        <div class="multicontainer modo">
+          <img  class="CapFoto" src="img/cap2/cap2-01.jpg" alt="María fa una videotrucada a la seva germana Alejandra, a Bogotà, on també treballa al sector domèstic.">
+          <div class="caption">
+            <p>Lucelly Canchala fa de mainadera de la Salomé des que va néixer. Està com interna a l'apartament de Cali on viu la família de la nena i només té lliure un dia cada dues setmanes
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text_subj esquerra" id="cap2.3">
+        <h2></h2>
+          <div class="text">
+
+            <p>Marco Alirio explica que “als treballadors se’ls paga 300 pesos per quilo”, menys de deu cèntims d’euro. Pot semblar ben poc, però representa una de les moltes despeses i esforços que comporta aconseguir el resultat final; “si un es posa a pensar quant gasta per aconseguir un quilo de cafè, tot el procés, era millor quedar-se quiet, perquè sap que en realitat té pèrdues. Però com que no hi ha més, un viu content de que ja li arriba la collita. Jo visc agraït del cafè”, assegura l’agricultor. </p>
+            <h3>a una botiga de Barcelona, el quilogram de cafè colombià costa 19 euros: unes deu vegades més del que han rebut Don Alirio i Doña Cecilia.</h3>
+          <p>Efectivament, tenir una arrova de cafè al sac significa haver-lo abonat i desherbat durant un any, collit, desgranat amb un molí manual, netejat i assecat al sol i transportat fins al poble on el compren. “A mi no se’m fa lluny”, diu Marco Alirio, “són uns 25 o 30 minuts a cavall”. El súmmum del cas és que aquest cafè acaba sent degustat ben lluny de La Sierra, “ho venen cap a altres bandes, no es queda a Colòmbia”, assegura el camperol. A l’altra banda de l’Atlàntic, a una botiga de Barcelona, el quilogram de cafè colombià costa 19 euros: unes deu vegades més del que han rebut Don Alirio i Doña Cecilia. A banda del cafè, la família Canchala Cruz s’ajuda econòmicament de la venta de la llet d’un grapat de vaques que tenen i de les remeses que envien les seves filles, cada una des d’una ciutat diferent del país. “És molta l’ajuda que rebem”, confessa la senyora Cecilia.
+          </p>
+          </div>
+        </div>
+        <div class="text_multi">
+          <div class="multicontainer modo">
+            <img  class="CapFoto" src="img/cap2/cap2-02.jpg" alt=" Marco Alirio descansa.">
+            <div class="caption">
+              <p> Marco Alirio descansa amb un dels seus néts i amb els jornalers que treballen en el petit cafetal de la familia Canchala.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="text_subj esquerra" id="cap2.4">
+          <h2></h2>
+            <div class="text">
+
+            <p>
+              Lucelly, per exemple, envia cada mes part del seu salari a La Sierra. Allà, entre els pares i la seva germana Nohemi Canchala, tenen cura del Julián David. “Ell pràcticament viu a les dues cases perquè estan juntes”, explica Lucelly, qui assegura que la seva germana “m’ajuda massa amb el meu fill (...) ella li dóna de menjar, pràcticament fa el paper de mare que no puc fer jo, va a les reunions de l’escola, a les cites mèdiques...”, assumeix emocionada. Segons Lucelly, la seva germana “és beneïda perquè no li ha tocat sortir a batallar, a enfrontar-se a un món diferent com ens toca a nosaltres. També està pendent dels meus pares perquè està allà”. <br><br>
+              Des de La Sierra, Nohemi té clar que “seria molt dur deixar al meu pare i a la meva mare pràcticament sols” i assegura que Julián David “és com un altre fill per mi, no és nebot sinó fill”, igual que la Mishell, qui “fins que també se’n va anar a cap a Cali, estava a casa, hi dormia, menjava, feia les seves trapelleries, sempre m’ha tocat cuidar-los”. A Nohemi no li ha “tocat sortir a batallar” a la ciutat, però batalla cada dia en la resistència al camp, tenint cura dels seus pares, sovint del seu germà petit, del seu marit, dels seus fills, dels fills de la seva germana, dels animals, de la casa, de l’hort... “El meu marit no ha estat mai una persona egoista”, es veu portada a afirmar quan, emocionant-se a mesura que avança, enumera la llista de tasques de cura que carrega a l’esquena.</p>
+              <h3>Segons Marco Alirio, al camp, “el treball de la dona és el més dur”. “És la primera que s’aixeca i l’última en anar-se’n a dormir”, recalca la senyora Cecilia.</h3>
+
+          <p>Tornem ara, per un moment, a l’engranatge de les cadenes o trames globals i locals de les cures que dibuixa la investigadora colombiana Camila Esguerra per seguir amb el relat de Lucelly. Esguerra explica que, “als països de l’anomenat primer món, hi ha un dèficit de cures que no ha estat cobert per polítiques estatals dels estats de benestar sinó per la migració de dones de països del sud”. Afegeix que, “quan migren des dels seus països, hi ha un dèficit de cures als països diguem-ne donants”, també per l’entrada de les dones al mercat laboral, com és el cas de la doctora Maria Isabel, “que alhora és cobert per altres dones migrants, nacionals, o per dones de l’entorn familiar. Això ho fan en condicions encara més precàries que les que han d’afrontar les dones migrants del sud o inclús com a treball no remunerat de cures.” <br><br>
+          En aquesta història, Cecília, Consuelo i Nohemi són les dones que, amb tot l’amor, es fan càrrec del dèficit de cures que de manera inevitable deixa la Lucelly mentre ella, tenint cura de la Salomé , s’encarrega del dèficit que deixa la doctora Maria Isabel Pava. Com segueix explicant Esguerra, “és una trama de relacions molt complexes” on s’han de tenir en compte “les narracions d’aquestes dones migrants, és a dir tota la carn, tota la sang, que hi ha darrera les històries de migració i de la feina de cura”. Tasques de cura tan invisibilitzades i menystingudes com les emocions, els sentiments, els afectes i les distàncies sostingudes per aquestes dones.
+          </p>
+        </div>
+      </div>
+      <div class="text_multi">
+        <div class="multicontainer modo">
+          <img  class="CapFoto" src="img/cap2/cap2-03.jpg" alt=" Marco Alirio descansa.">
+          <div class="caption">
+            <p>  Doña Cecilia explica que, al món rural, la dona és la primera que es lleva i la darrera que se’n va a dormir. A totes les feines productives del camp se sumen les tasques de cures, que recauen en les dones.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text_subj esquerra" id="cap2.5">
+        <h2> </h2>
+        <div class="text ">
+          <h3>La que està en perill d’extinció és la possibilitat de viure al camp, del camp i amb el camp
+          </h3>
+          <p>Esguerra recalca que les trames s’han d’observar com si fossin “una mena de complot de sistemes racistes, capacitistes, misògins, colonials, etaristes etc., per generar l’enganche de les dones migrants a un règim transnacionalitzat i urbanitzat de cures, és a dir, que va en detriment d’allò rural”. Efectivament, com veiem en el cas de la família Canchala, la que està en perill d’extinció és la possibilitat de viure al camp, del camp i amb el camp. Que sis de set filles de Cecilia i Marco Alirio hagin hagut de marxar a treballar a les ciutats representa un atac al seu estil de vida i en definitiva a la seva existència.<br><br>
+          Abandonar la zona rural a La Sierra no només significa distanciar-se de la família sinó també dir adéu al contacte amb la naturalesa, a la proximitat de la comunitat o a la llibertat que et dóna el territori. Segons Lucelly aquesta és la principal diferència entre el camp i la ciutat: la llibertat. “Aquí –a Cali- una sempre ha d’estar cohibida de moltes coses, en canvi allà surts i no tens problemes: muntes a cavall, vas al riu... (...) A la meva vereda tothom es coneix, en canvi aquí escassament es diu “bon dia”. (...) Allà si li passa alguna cosa a una família tothom està pendent d’ella, i això em sembla bonic, hi ha molta unió”, descriu orgullosa Lucelly. “És molt diferent la tradició de la meva terra”.
+
+          </p>
+        </div>
+      </div>
+      <div class="text_multi ">
+        <div class="multicontainer modo">
+          <img class="CapFoto" src="img/cap2/cap2-04.jpg" alt="María xerrant">
+          <div class="caption">
+            <p> Doña Cecilia explica que, al món rural, la dona és la primera que es lleva i la darrera que se’n va a dormir. A totes les feines productives del camp se sumen les tasques de cures, que recauen en les dones.
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <div class="text_subj esquerra" id="cap2.6">
+          <h2> </h2>
+          <div class="text ">
+            <h3>Les dones al camp no tenim opcions. Fas les tasques de la casa i això no és remunerat, en canvi els homes van a treballar a casa el veí.</h3>
+            <p>    “M’agradaria que hi hagués més projectes. Les dones al camp no tenim opcions. Fas les tasques de la casa i això no és remunerat, en canvi els homes van a treballar a casa el veí”, denuncia Lucelly Canchala. Segons Esguerra, generalment “les dones que es dediquen al treball de cures –a la ciutat- són camperoles, d’origen rural, moltes afros i indígenes”. És necessari mencionar que per algunes, en certa manera, és un procés alleujador quan es desfan també de violències que poden viure en l’àmbit familiar, quan acaben guanyant en termes d’autonomia: se’n van a la ciutat a fer les mateixes tasques que feien a casa seva però de manera remunerada. Per altres és simplement l’única possibilitat a la que es veuen empeses a causa del context d’empobriment a la seva terra d’origen. <br><br>
+              Des de La Sierra, Julián David, exigeix a aquelles que viuen a la ciutat “que reconeguin que les camperoles son les que donen el sosteniment, el menjar, les que cultiven el que consumeixen a la ciutat i les que cuiden de la naturalesa com la cuidem aquí”. Des de Cali, emocionada, Lucelly assegura: “Jo mai m’oblido de la meva terra, estimo la meva casa, la meva vereda, la meva gent”.
+            </p>
+          </div>
+        </div>
+        <div class="text_multi ">
+          <div class="multicontainer modo">
+            <img class="CapFoto" src="img/cap2/cap2-05.jpg" alt="María xerrant">
+
+          </div>
+        </div>
+        <div class="firma">
+          <p>Text: Berta Camprubí <br>
+          Foto: Montse Giralt <br>
+          Video: Núria Gebellí</p>
+        </div>
+    </article>
+  </section>
+
+  <section class="cd-section2 cd-section--bg-fixed">
+    <div id="detector2">
+    </div>
+    <div class="container">
+      <div class="ficha"id="ficha2">
+        <article class="cap ">
+          <div class="personaje">
+            <h2>Sofía <br> Giménez</h2>
+            <div class="datos">
+            <h3>Origen:</h3>
+            <p>Cuisnahuat (El Salvador)</p>
+            <h3>Migració a:</h3>
+            <p>San Salvador (El Salvador)</p>
+          </div>
+          <div class="mapaMigracio">
+          <p>70 km</p>
+          <img src="img/migracio_2_2.svg" alt="Trayectoria desde Bogotà a Tarragona">
+          </div>
+        </div>
+      </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cd-section contenido">
+    <article class="subj">
+      <div class="text_subj salto" id="cap2.7">
+        <div class="">
+
+        <h1>SOFÍA<br> GIMÉNEZ</h1>
+        <h2>Secretaria general del sindicat de treballadores de la llar d’El Salvador (SITRADOMES)
+        </h2>
+      </div>
+      <div class="text ">
+        <p>Cuisnahuat té reminiscències indígenes. El nom d’aquesta ciutat, situada en el departament de Sonsonate al nord-oest d’El Salvador, prové de la paraula Kwisnawat, en l’idioma Náhuat. Són petits recordatoris que al país hi havia unes comunitats indígenes arrelades a la terra abans de les múltiples violències patides. Ara gairebé no queden parlants del Náhuat; unes 200 persones el recorden i el practiquen.
+
+          <br><br>
+
+      Probablement la Sofía Giménez té sang náhua a les seves venes. La seva família són d’un petit poble rural vora Cuisnahuat, àrea d’influència náhuat. Però a la casa no es parla l’idioma nadiu i les tradicions que perduren ho fan sense reclamar-se com ancestres. És mare soltera de dos fills, el major dels quals ja és adolescent. Als nens els ha cuidat l’àvia, ja que per tirar-los endavant la Sofía va haver de migrar. Malgrat que El Salvador és un país petit -uns 21.041 km², a comparació dels 32.000 km² del Principat català- les comunicacions als territoris rurals són complicades i demanen vehicles que puguin resistir les carreteres sense asfaltar. El resultat és que la Sofía havia de fer un viatge llarguíssim cada dia per treballar a la capital, San Salvador.  </p>
+    </div>
+  </div>
+    <div class="text_multi">
+      <div class="videocontainer modo visible"id="videocontainer2">
+      </div>
+    </div>
+    <div class="text_subj esquerra " id="cap2.8">
+      <h2></h2>
+      <div class="text">
+        <p>Ana Margarita Elias, mare de la Sofía, ho recorda al porxo de casa on està cuidant un dels néts; el petit es troba malament i l’àvia l’acarona mentre conversa. Per anar a treballar a la casa on feia de treballadora de la llar, la Sofía “havia d’agafar un bus aquí i arribava fins a Sonsonate. Allà agafava un altre fins a San Salvador, després un autobús urbà… Al final va deixar la feina, s’anava tot el que guanyava en pagar transports”, explica. <br><br>
+
+      Al porxo també estan la Sofía i els seus fills, Carlos i Héctor. El més gran practicava amb una guitarra clàssica, fins que l’han convençut per unir-se a la conversa. Parla de l’Ana Margarita amb timidesa adolescent: “jo no li dic abuela, si no que li dic mami perquè…”. I no acaba la frase, mentre mira de reüll la mare que està fora de càmeres i micròfons. <br><br>
+
+      “Ell s’ha criat amb nosaltres, des que [la Sofía] se n’anava a treballar. Per això em diu mami”, confirma l’Ana Margarita, “no em diu abuela sinó mami des de petit. Com que a la mare quan estava de dos mesos la va deixar el papà, doncs ella es va venir aquí a viure amb nosaltres. [En Carlos] té tretze anys, nosaltres l’hem cuidat”, afirma l’àvia. I el mateix amb l’Héctor, el germà petit, que està amb la panxa a l’aire perquè l’àvia el segueixi acaronant mentre narra la història familiar.
+        </p>
+      </div>
+      </div>
+      <div class="text_multi ">
+        <div class="multicontainer modo">
+          <img class="CapFoto " src="img/cap2/cap2-06.jpg" alt="foto d'assemblea">
+          <div class="caption">
+            <p> Ana Margarita, mare de la Sofía, cuida un dels seus néts que es troba malament. A l’àvia li diuen “mami”, ja que s’ha fet càrrec dels petits des que eren nadons.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text_subj" id="cap2.9">
+        <h2>SENSE <i>MILPA</i> I SENSE TERRA, L'OBLIGACIÓ ÉS MIGRAR</h2>
+        <div class="text">
+          <h3>Cada vegada resulta més difícil aconseguir la milpa, és a dir, satisfer les necessitats bàsiques d’una família camperola, que també són les arrels de la comunitat
+          </h3>
+          <p>Cuisnahuat és zona camperola. Però des de fa uns anys tenen sequeres greus i un abocador pròxim està contaminant els aqüífers. Cada vegada resulta més difícil aconseguir la milpa, és a dir, satisfer les necessitats bàsiques d’una família camperola, que també són les arrels de la comunitat. Ana Margarita explica que sovint ja no poden collir blat de moro, només frijoles i maicillo o sorgo. Abans podien vendre el maíz al mercat local, obtenir uns ingressos. Ara se sostenen com poden. <br><br>
+
+          Tot plegat va fer que la Sofía hagués de migrar a la capital per seguir treballant com a doméstica. La seva mare va assumir la cura dels néts; des d’aleshores ha passat més d’una dècada. Si tingués opció, la Sofía es quedaria al camp amb la seva família. “Potser tenint un trosset de terra per treballar, amb animals, si hi hagués algun tipus d’ingrés aquí per nosaltres… però no tenim cap ingrés nosaltres. [Els homes] surten a treballar d’això, fan de jornalers, no tenim espai”, explica. Per això, les dones i especialment les mares solteres són pràcticament expulsades del camp.</p>
+          <h3>Un dels fenòmens que s’observa a El Salvador és que hi ha moltes llars encapçalades per dones. És a dir, el seu salari sosté les famílies.</h3>
+
+          <p>Com explica Carmen Urquilla de l’Organització de Dones del Salvador per la Pau (ORMUSA), “un dels fenòmens que s’observa a El Salvador és que hi ha moltes llars encapçalades per dones. És a dir, el seu salari sosté les famílies. La migració és una de les opcions que, en els darrers anys, hem vist que és pràcticament forçada per les dones. Sense cap altra oportunitat, es veuen obligades a migrar”, argumenta Urquilla. El desplaçament pot ser nacional o transnacional, però en tots dos escenaris gairebé sempre han de deixar enrere els seus fills i filles, que són el motiu per migrar.</p>
+          <h3>“A El Salvador tenim una migració forta de les dones de les zones rurals que migren cap a zones més urbanes per a col·locar-se com a treballadores a cases particulars fent treball domèstic i, en bona part, de cures”</h3>
+          <p> Molts cops, una dona que va a treballar a la maquila, al no trobar ocupació així, el que fa és emplear-se com a treballadora de la llar. No és que tinguin massa opcions” i els treballs en què s’insereixen són precaritzats, argumenta Urquilla.</p>
+        </div>
+        </div>
+          <div class="text_multi ">
+            <div class="multicontainer modo">
+              <img class="CapFoto " src="img/cap2/cap2-07.jpg" alt="foto d'assemblea">
+              <div class="caption">
+                <p> L’entrada a Cuisnahuat, un poble de l’interior d’El Salvador que tradicionalment ha estat camperol. Les sequeres i altres impactes posen en risc la continuïtat de la vida al món rural, pel que moltes dones es veuen forçades a migrar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="text_subj" id="cap2.10">
+            <h2></h2>
+              <div class="text">
+
+          Sofía Giménez comparteix que sent un enorme alleugeriment de tenir la mare. “Jo ho agraeixo molt, perquè quan surto fora de casa [per treballar] sé que li deixo els meus fills, fins i tot estan els meus nebots. És un treball molt gran, el que fa amb els meus fills. No estan amb qualsevol persona, estan amb la meva mare. Jo sé que me’ls cuida bé. I per seguretat”, diu, en referència a l’alt índex de violència estatal, “aquest és el lloc més saludable en què poden estar”.</p>
+          <h3>“És una dona qui continua fent les feines de cures, perquè els homes no prenen responsabilitat en aquests assumptes”, denuncia la Sofía.
+          </h3>
+          <p>
+          Sense l’Ana Margarita, potser hauria d’haver deixat els fills a càrrec d’alguna altra dona, mentre ella mateixa estava cuidant a fills aliens a la capital. “Jo que no tinc per pagar-li a ningú, [deixo els fills] a la mare perquè sé que no em cobrarà. És una dona qui continua fent aquestes feines, perquè els homes no prenen responsabilitats en aquests assumptes”, denuncia la Sofía. Una trama de les cures que no travessa fronteres estatals però que s’interna profundament en tots els territoris rurals d’El Salvador.
+          </p>
+        </div>
+      </div>
+      <div class="text_multi ">
+        <div class="multicontainer modo">
+          <img class="CapFoto " src="img/cap2/cap2-08.jpg" alt="foto d'assemblea">
+          <div class="caption">
+            <p> Quan la Sofía va haver de migrar, la seva mare es va fer càrrec dels dos fills, Carlos i Héctor. Els dies que la Sofía torna a la casa familiar, ambdues comparteixen les feines domèstiques.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text_subj" id="cap2.11">
+        <h2>“ET TRACTEN COM SI NO FESSIS RES IMPORTANT”</h2>
+        <div class="text">
+          <p>La Sofía a San Salvador ha cuidat d'ancians i infants, ocupant-se de la gent que quedava a càrrec seu de matinada a matinada. “No podia dormir bé, perquè havia de cuidar d’un nen petit fins que arribessin els patrons, passada la mitjanit. Li pagaven 80 dòlars [al mes]”, recorda Ana Margarita. Les persones que la contracten, argumenta Sofía, “no s’adonen que nosaltres cuidem el més valuós: els seus fills, els seus pares. Et tracten com si no fessis res important. Però a tu t’estan confiant la seva família. A vegades, acabes estant més pendent d’ells que els mateixos pares. Implica molt d’esforç, tenir salut i fort el cor perquè és molta energia la que es gasta en cuidar. Cal estar bé mentalment per suportar els abusos que es donen. Això és el que implica el treball domèstic”, denuncia.
+          </p>
+          <h3>Cuidar d’altres persones implica renunciar a cuidar de les teves persones pròximes
+          </h3>
+
+            <p> “Ella deia, em sento malament, cuidant a un nen allà i deixant als meus fills aquí. Jo els voldria cuidar, deia la meva filla, però com que necessitàvem l’aliment, doncs millor els cuidava jo i que ella se n’anés [a la ciutat] a guanyar ingressos. A més, no és només el menjar”, explica l’Ana Margarita. Roba, escola, transport, estris de neteja personal, visites mèdiques, medicaments… La llista sembla interminable quan la butxaca no dóna per tant.
+            </p>
+          </div>
+        </div>
+        <div class="text_multi ">
+          <div class="multicontainer modo">
+            <img class="CapFoto " src="img/cap2/cap2-09.jpg" alt="foto d'assemblea">
+            <div class="caption">
+              <p> El Sindicat de Treballadores Domèstiques d’El Salvador (SITRADOMES) acull a dones organitzades per protegir els seus drets. També és un espai de sororitat i de cures; moltes han hagut de migrar, així que el sindicat és una segona família.</p>
+            </div>
+          </div>
+        </div>
+        <div class="text_subj" id="cap2.12">
+          <h2>“ET TRACTEN COM SI NO FESSIS RES IMPORTANT”</h2>
+          <div class="text">
+
+          <p>A la capital, la Sofía no només va trobar feines precaritzades: també va trobar el seu grup de sororitat i de suport mutu. Actualment és Secretària General del Sindicat de Treballadores Domèstiques de El Salvador (SITRADOMES). Allà està amb una altra veïna de Cuisnahuat, la Rosita -Rosa Cristina Elías-, que va fer un camí molt similar i que també fa de treballadora de la llar. SITRADOMES tenen diversos fronts de batalla oberts. Un dels principals és el de la ratificació del conveni 189 de la Organització Internacional del Treball, que de complir-se podria garantir alguns dels drets laborals bàsics de les treballadores de la llar i de les cures. Dret a l’atur, a vacances pagades, a permís per maternitat, a baixes laborals, a dies de descans… sempre que l’estat salvadoreny posés recursos per garantir que es complís. Per ara, la batalla sindical sembla que haurà de seguir el camí obert, alhora que aquestes dones es cuiden i protegeixen entre elles. De la violència masclista, de les violències de les bandes, de la violència policial, de la violència econòmica…
+             <br> <br>
+
+             També de la violència migratòria. La Sofía Giménez es planteja emprendre el perillós viatge que creua Centreamèrica fins arribar als Estats Units. Aquesta gola del llop cada any engoleix centenars de migrants que desapareixen -i són desaparegudes- en l’èxode cap al nord.</p>
+             <h3>Només l’any 2018, a la frontera entre Mèxic i els EUA, es van registrar vora 400 morts de migrants, segons dades de l’Organització Internacional per la Migració (OIM)</h3>
+
+              <p>“Jo amb els meus fills no m’arriscaria a marxar, una no sap mai com serà aquest camí. Però sola sí. Si tingués l’oportunitat, me n’aniria. A ells no els arriscaria”, sentencia Sofía. Com diu la Vilma Vásquez, companya de lluites a SITRADOMES, “nosaltres estem entre dues espases, els EUA i Europa. América Llatina és un camp de disputa, de lluita i de saqueig històric”, denuncia. El Salvador segueix escrivint la seva història amb ploma estrangera i sang local. Tanmateix, hi ha moltes dones que batallen des de la valentia de qui lluita per un futur millor. SITRADOMES en són exemple. No sempre guanyen les batalles, però són expertes a seguir plantant cara. <br><br>
+
+
+             <i>En record d’Emmerson, assassinat al febrer del 2019, fill de quinze anys de María Teresa.</i>
+
+          </p>
+        </div>
+
+      </div>
+      <div class="">
+
+      </div>
+      <div class="firma">
+        <p>Text: Anna Celma <br>
+          Foto: Montse Giralt <br>
+          Video: Núria Gebellí</p>
+      </div>
+
+    </article>
+  </section>
+
+  <footer>
+        <div class="back footer">
+          <a href="index.html#capitulos">
+            <img src="img/back.svg" alt="boton para cerrar el capítulos">
+          </a>
+        </div>
+  </footer>
+
+
+
+<!-- carga -->
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/inview.min.js"></script>
+
+<script type="text/javascript">
+var aparicion = new TimelineMax({});
+aparicion.delay(2)
+aparicion.to("#scrollicon", .5, {opacity:1}, 0)
+
+var parpadeo = new TimelineMax ({repeat:-1, yoyo:true})
+parpadeo.delay(2)
+parpadeo.to("#scrollicon", .5, {y:-20})
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var height = $(window).height();
+  $('.container').height(height);
+});
+</script>
+<!--carga videos-->
+<script type="text/javascript">
+var new_video = document.createElement("video");
+document.getElementById("videocontainer1").appendChild(new_video);
+new_video.src = "vid/vid2_1.mp4";
+new_video.load();
+new_video.pause();
+new_video.controls=true;
+</script>
+<script type="text/javascript">
+var new_video_2 = document.createElement("video");
+document.getElementById("videocontainer2").appendChild(new_video_2);
+new_video_2.src = "vid/vid1_2.mp4";
+new_video_2.load();
+new_video_2.pause();
+new_video_2.controls=true;
+</script>
+<!-- ficha-->
+<script type="text/javascript">
+  var ficha1 = new Waypoint({
+    element: document.getElementById('detector1'),
+    handler: function() {
+    $("#ficha1").addClass("visible");
+    },
+    offset: "20%"
+
+  });
+
+  var ficha2 = new Waypoint({
+    element: document.getElementById('detector2'),
+    handler: function() {
+    $("#ficha2").addClass("visible");
+    },
+    offset: "20%"
+
+  });
+</script>
+
+<!--sticky multimedia-->
+<script type="text/javascript">
+
+    var foto0 = new Waypoint({
+    element: document.getElementById('cap2.1'),
+    handler: function(direction) {
+      $(".modo").removeClass("visible");
+      $(".modo").eq(0).addClass("visible");
+    },
+     });
+
+    var foto1 = new Waypoint({
+    element: document.getElementById('cap2.2'),
+    handler: function(direction) {
+      $(".modo").removeClass("visible");
+      $(".modo").eq(1).addClass("visible");
+      new_video.pause();
+
+    },
+     });
+     var foto2 = new Waypoint({
+     element: document.getElementById('cap2.3'),
+     handler: function(direction) {
+       $(".modo").removeClass("visible");
+       $(".modo").eq(2).addClass("visible");
+     },
+     offset:'20%',
+      });
+      var foto3 = new Waypoint({
+      element: document.getElementById('cap2.4'),
+      handler: function(direction) {
+        $(".modo").removeClass("visible");
+        $(".modo").eq(3).addClass("visible");
+      },
+      offset:'20%',
+       });
+       var foto4 = new Waypoint({
+       element: document.getElementById('cap2.5'),
+       handler: function(direction) {
+         $(".modo").removeClass("visible");
+         $(".modo").eq(4).addClass("visible");
+       },
+       offset:'20%',
+        });
+        var foto5 = new Waypoint({
+        element: document.getElementById('cap2.6'),
+        handler: function(direction) {
+          $(".modo").removeClass("visible");
+          $(".modo").eq(5).addClass("visible");
+        },
+        offset:'20%',
+         });
+      var foto6 = new Waypoint({
+      element: document.getElementById('cap2.7'),
+      handler: function(direction) {
+        $(".modo").removeClass("visible");
+        $(".modo").eq(6).addClass("visible");
+      },
+      offset:"70%",
+
+       });
+
+       var foto7 = new Waypoint({
+       element: document.getElementById('cap2.8'),
+       handler: function(direction) {
+         $(".modo").removeClass("visible");
+         $(".modo").eq(7).addClass("visible");
+         new_video_2.pause();
+
+       },
+       offset:"20%",
+        });
+        var foto8 = new Waypoint({
+        element: document.getElementById('cap2.9'),
+        handler: function(direction) {
+          $(".modo").removeClass("visible");
+          $(".modo").eq(8).addClass("visible");
+        },
+        offset:"20%",
+         });
+         var foto9 = new Waypoint({
+         element: document.getElementById('cap2.10'),
+         handler: function(direction) {
+           $(".modo").removeClass("visible");
+           $(".modo").eq(9).addClass("visible");
+         },
+         offset:"20%",
+          });
+          var foto10 = new Waypoint({
+          element: document.getElementById('cap2.11'),
+          handler: function(direction) {
+            $(".modo").removeClass("visible");
+            $(".modo").eq(10).addClass("visible");
+          },
+          offset:"20%",
+           });
+           var foto11 = new Waypoint({
+           element: document.getElementById('cap2.12'),
+           handler: function(direction) {
+             $(".modo").removeClass("visible");
+             $(".modo").eq(11).addClass("visible");
+           },
+           offset:"20%",
+            });
+
+</script>
+
+</body>
+</html>
