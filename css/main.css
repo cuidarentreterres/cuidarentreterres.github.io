@@ -651,6 +651,34 @@ body.cap1:before {
   -o-background-size: cover;
   background-size: cover;
 }
+body.cap2{
+  font-family: 'aktivgrotesk', sans-serif;
+  color:white;
+  margin:0;
+  background-image: url("../img/cap200.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+  position: relative;
+  max-width: 100%;
+}
+
+body.cap2:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  background: url("../img/cap200.JPG") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 div.container.tit{
   position: relative;
@@ -661,6 +689,7 @@ div.container.tit{
   height: auto;
   position: absolute;
   top: 5%;
+  left: 5%;
   color: white;
   transition: all 0.5s;
 }
@@ -720,6 +749,12 @@ width: 60px;
   background-repeat: no-repeat;
   background-position: center center;
 }
+.cd-section2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 
 .cd-section--bg-fixed {
   min-height: 100vh;
@@ -735,6 +770,11 @@ width: 60px;
 .cd-section:nth-child(4) {
   background-image: url("../img/cap102.JPG");
 }
+.cd-section2:nth-child(2) {
+  background-image: url("../img/cap201.jpg");
+  background-position: 30% 0;
+}
+
 
 
 
@@ -1655,6 +1695,18 @@ visibility: hidden  }
       margin-top:0px;
       padding-bottom: 0px;
       margin-bottom: 0px;
+    }
+    .caption {
+        position: relative;
+        width: 100%;
+        height: auto;
+        bottom: 0px;
+        left: 0px;
+        color: white;
+        background: rgba(0, 0, 0, 0);
+    	text-align:left;
+    	font-weight:100;
+    	opacity:0.7;
     }
 
     .modo.visible{
