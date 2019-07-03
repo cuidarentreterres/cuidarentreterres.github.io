@@ -946,6 +946,9 @@ div.text_subj.salto{
   font-size: 1rem;
   line-height: 1.2rem;
 }
+h2.paradestacado{
+  padding-top: 35px;
+}
 .text_subj h3{
   font-family: "Canela", serif;
   font-weight: 100;
