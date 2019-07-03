@@ -690,6 +690,7 @@ body.cap2:before {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 80%;
 }
 
 div.container.tit{
