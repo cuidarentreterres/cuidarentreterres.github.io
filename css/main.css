@@ -1374,7 +1374,7 @@ textarea {
    /* multi texto */
    div.text_multi{
      position: inherit;
-     padding-bottom: 100px;
+     margin-bottom: 100px;
      height: 100%;
 
    }
