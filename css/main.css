@@ -647,6 +647,18 @@ body.cap2{
   position: relative;
   max-width: 100%;
 }
+body.cap3{
+  font-family: 'aktivgrotesk', sans-serif;
+  color:white;
+  margin:0;
+  background-image: url("../img/cap300.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+  position: relative;
+  max-width: 100%;
+}
 
 body.cap1:before {
   content: "";
@@ -686,6 +698,22 @@ body.cap2:before {
   height: 100%;
   z-index: -5;
   background: url("../img/cap200.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 80%;
+}
+body.cap3:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  background: url("../img/cap300.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -767,6 +795,11 @@ width: 60px;
   background-repeat: no-repeat;
   background-position: center center;
 }
+.cd-section3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 
 .cd-section--bg-fixed {
@@ -790,6 +823,14 @@ width: 60px;
 .cd-section2:nth-child(4) {
   background-image: url("../img/cap202.jpg");
   background-position: 30% 0;
+}
+.cd-section3:nth-child(2) {
+  background-image: url("../img/cap301.jpg");
+  background-position: 0;
+}
+.cd-section3:nth-child(4) {
+  background-image: url("../img/cap302.jpg");
+  background-position: 0;
 }
 
 
@@ -879,6 +920,17 @@ article.obj{
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.5);
 }
+article.obj.sintext{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  column-gap: 50px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.5);
+}
 article.obj p{
   max-width: 75%;
 }
@@ -888,21 +940,28 @@ article.obj .datos{
   column-gap: 50px;
 }
 
-.datos h3{
+.obj h3{
   font-size: 2rem;
   line-height: 2rem;
   font-weight: 100;
   margin-top: 0;
   margin-bottom: 0;
 }
-.datos h4{
+.sintext h3{
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+.obj h4{
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 100;
 }
-.datos p{
+.sintext h4{
+  margin-top: 10px;
+}
+.obj p{
   font-size: 0.8rem;
   line-height: 0.8rem;
   opacity: 0.5;
@@ -1446,6 +1505,11 @@ textarea {
       article.obj{
         display: block;
       }
+      article.obj.sintext{
+        display: block;
+
+
+      }
       article.obj .datos{
         margin-top: 100px;
       }
@@ -1542,6 +1606,12 @@ textarea {
    }
 }
  @media (max-width: 575px) {
+   .cd-section3:nth-child(2) {
+     background-position: 20%;
+   }
+   .cd-section3:nth-child(4) {
+     background-position: 30%;
+   }
    .docu h1{
      font-size: 1rem;
      text-transform: uppercase;
@@ -1691,15 +1761,23 @@ visibility: hidden  }
     }
     /*cap intro*/
     .container.tit h1{
-      font-size: 3.5rem;
-      line-height: 3.5rem;
+      font-size: 3rem;
+      line-height: 3rem;
     }
+    .sintext h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
     article.obj p{
       max-width: 100%;
     }
     article.obj .datos{
       display: block;
+      margin-top: 50px;
     }
+    article.obj.sintext{
+      padding-top: 50px;
+      padding-bottom: 100px;
     /*ficha*/
     article.cap{
       display: block;
