@@ -43,16 +43,33 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url("../img/1_portada.jpg") no-repeat center center;
+  background: url("../img/1_portada_m.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 60%;
 }
 
 .pases{
 
   background-color: rgba(0, 0, 0, 0.8);
+}
+.pas.pasado{
+  opacity: 0.25;
+}
+.trailer{
+  margin: 0 20% 0 20%;
+  max-height: 75vh;
+  position: relative;
+  margin-top: 100px;
+}
+iframe{
+position:absolute;
+height:100%;
+width:100%;
+top:0px;
+left:0px;
 }
 .docu{
   margin: 0 5% 0 5%;
@@ -71,8 +88,8 @@ body:before {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
   column-gap: 50px;
-  margin:0 5% 0 5%;
-  padding-top: 150px;
+  margin: 0 5% 0 5%;
+  padding-top:150px;
 }
 .fechas h2{
   font-size: 3rem;
@@ -730,9 +747,13 @@ div.container.tit{
   height: auto;
   position: absolute;
   top: 5%;
-  left: 5%;
+    right: 5%;
   color: white;
   transition: all 0.5s;
+}
+.back.docu img{
+  left: inherit;
+  right: 5%;
 }
 .mess_back{
   position: absolute;
@@ -743,6 +764,10 @@ div.container.tit{
 }
 .container.tit img:hover{
   transform: scale(1.5);
+}
+.back.docu img:hover{
+  transform: scale(1.5);
+
 }
 .back:hover .mess_back{
   opacity: 1;
@@ -1128,7 +1153,32 @@ hr {
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
+ .hs-responsive-embed {
+   position: relative;
+ height: 0;
+ overflow: hidden;
+ padding-top: 0;
+ padding-left: 0;
+ padding-right: 0;
+  }
 
+ .hs-responsive-embed iframe,
+ .hs-responsive-embed object,
+ .hs-responsive-embed embed {
+  position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border: 0;
+  }
+
+ .hs-responsive-embed,
+ .hs-responsive-embed.hs-responsive-embed-youtube,
+ .hs-responsive-embed.hs-responsive-embed-wistia,
+ .hs-responsive-embed.hs-responsive-embed-vimeo {
+  padding-bottom: 56.25%;
+ }
 audio,
 canvas,
 iframe,
@@ -1322,6 +1372,23 @@ textarea {
 
 
  @media (max-width: 1000px) {
+   .back.docu img{
+     display: none;
+   }
+   h2.sinSup {
+    padding-top: 20px;
+  }
+  .capitulos p{
+  padding-top: 10px;
+  }
+  div.imgContainer{
+    margin-bottom: 50px;
+  }
+
+   .trailer{
+     margin: 0 10% 0 10%;
+     margin-top: 100px;
+   }
    img.logo{
     float: right;
     height: 15px;
@@ -1607,11 +1674,25 @@ textarea {
    }
 }
  @media (max-width: 575px) {
+   .trailer{
+     margin: 0 5% 0 5%;
+     margin-top: 100px;
+   }
+   #enteros{
+     margin-top:50px;
+   }
+   .fechas{
+     padding-top: 50px;
+   }
    .cd-section3:nth-child(2) {
      background-position: 20%;
    }
    .cd-section3:nth-child(4) {
      background-position: 30%;
+   }
+   #videocontainer{
+   background-image: url("../img/intro_lasierra_m.jpg");
+   background-position: 5%;
    }
    .docu h1{
      font-size: 1rem;
