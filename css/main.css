@@ -676,6 +676,18 @@ body.cap3{
   position: relative;
   max-width: 100%;
 }
+body.cap4{
+  font-family: 'aktivgrotesk', sans-serif;
+  color:white;
+  margin:0;
+  background-image: url("../img/cap400.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+  position: relative;
+  max-width: 100%;
+}
 
 body.cap1:before {
   content: "";
@@ -731,6 +743,22 @@ body.cap3:before {
   height: 100%;
   z-index: -5;
   background: url("../img/cap300.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 80%;
+}
+body.cap4:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  background: url("../img/cap400.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -825,6 +853,11 @@ width: 60px;
   background-repeat: no-repeat;
   background-position: center center;
 }
+.cd-section4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 
 .cd-section--bg-fixed {
@@ -857,7 +890,14 @@ width: 60px;
   background-image: url("../img/cap302.jpg");
   background-position: 0;
 }
-
+.cd-section4:nth-child(2) {
+  background-image: url("../img/cap401.jpg");
+  background-position: 0;
+}
+.cd-section4:nth-child(4) {
+  background-image: url("../img/cap402.jpg");
+  background-position: 0;
+}
 
 
 
@@ -1097,7 +1137,7 @@ position: relative;
     background: rgba(0, 0, 0, 0.8);
 	text-align:left;
 	font-weight:100;
-	opacity:0.7;
+	opacity:0.8;
 }
 .caption p{
   font-size: 0.75rem;
@@ -1674,6 +1714,10 @@ textarea {
    }
 }
  @media (max-width: 575px) {
+   .caption {
+       position: relative;
+       background: none;
+     }
    .trailer{
      margin: 0 5% 0 5%;
      margin-top: 100px;
@@ -1689,6 +1733,15 @@ textarea {
    }
    .cd-section3:nth-child(4) {
      background-position: 30%;
+   }
+   .cd-section4:nth-child(2) {
+     background-position: 30%;
+   }
+   .cd-section4:nth-child(4) {
+     background-position: 50%;
+   }
+   body.cap4:before {
+     background-position: 50% 0%;
    }
    #videocontainer{
    background-image: url("../img/intro_lasierra_m.jpg");
