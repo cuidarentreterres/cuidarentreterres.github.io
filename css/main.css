@@ -98,7 +98,7 @@ left:0px;
   margin-bottom: 0;
   margin-top: 0;
   padding-top: 5%;
-}
+}XXª
 .docu p{
   margin-top: 0;
 }
@@ -229,6 +229,7 @@ color: white;
 margin:0;
 font-size: 2rem;
 line-height: 1.8rem;
+display: inline-flex;
 }
 a{
   text-decoration: none;
@@ -238,13 +239,19 @@ nav{
   flex-grow: 2;
   z-index: 0;
 }
-nav ul {
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+nav div.idioma {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: baseline;
   float: right;
-  margin: 0;
+  justify-content: center;
+  margin: -2px 0;
 }
 li{
   list-style: none;
@@ -256,13 +263,22 @@ color: white;
 padding-right: 10px;
 padding-left: 10px;
 font-size: 1.2rem;
+text-align: center;
+line-height: 10px;
+transition: 0.5s;
 }
 a.actual{
   font-weight: 900;
 }
 nav li a:hover{
   font-weight: 900;
+  letter-spacing: 0px;
 }
+@media (max-width: 575px) {
+  li.idioma{
+    align-items: flex-end;
+  }
+};
 
 
 /*LAND*/
@@ -788,14 +804,16 @@ div.container.tit{
   position: relative;
   padding: 0 0 0 0;
 }
+
 .back img{
   width: 50px;
   height: auto;
-  position: absolute;
+  float: right;
   top: 5%;
     right: 5%;
   color: white;
   transition: all 0.5s;
+  margin-top: 5%
 }
 .back.docu img{
   left: inherit;
@@ -1376,7 +1394,7 @@ textarea {
      }
      header h1{
        font-size: 1.5rem;
-       line-height: 1rem;
+       line-height: 1.2rem;
      }
      div.logos{
        visibility: hidden;
@@ -1848,8 +1866,8 @@ visibility: hidden  }
     }
     header h1{
       padding-top: 30px;
-      font-size: 1.5rem;
-      line-height: 1.5rem;
+      font-size: 1rem;
+      line-height: 0.9rem;
     }
     nav ul{
       float: right;
@@ -1861,8 +1879,8 @@ visibility: hidden  }
     font-family: 'aktivgrotesk', sans-serif;
     font-weight: 100;
     color: white;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     font-size: 0.8rem;
     }
     /*intro*/
